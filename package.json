@@ -1,0 +1,35 @@
+{
+  "name": "sixbridge",
+  "version": "1.0.0",
+  "description": "Plataforma de ventas para Six Bridge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SixBridgeOrgGit/sixbridge-backend.git"
+  },
+  "homepage": "https://github.com/SixBridgeOrgGit/sixbridge-backend",
+  "keywords": [
+    "Six",
+    "Bridge"
+  ],
+  "author": "Esteban Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SixBridgeOrgGit/sixbridge-backend/issues"
+  },
+  "dependencies": {
+    "@apollo/sandbox": "^2.7.0",
+    "apollo-server": "^3.13.0",
+    "apollo-server-core": "^3.13.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "json-2-csv": "^5.5.8",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "nodemon": "^3.1.9"
+  }
+}
